@@ -72,7 +72,7 @@ $preset = @(
 
 	### Application Tweaks ###
 	"DisableOneDrive",              # "EnableOneDrive",
-	"#UninstallOneDrive",            # "InstallOneDrive",
+	#"UninstallOneDrive",            # "InstallOneDrive",
 	"UninstallBloatware",           # "InstallBloatware",
 	"UninstallWindowsStore",      # "InstallWindowsStore",
 	"DisableConsumerApps",          # "EnableConsumerApps",
@@ -87,7 +87,7 @@ $preset = @(
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
 
 	### Auxiliary Functions ###
-	"WaitForKey",
+	#"WaitForKey",
 	"Restart"
 )
 
