@@ -72,7 +72,23 @@ $preset = @(
 
 	### Application Tweaks ###
 	"DisableOneDrive",              # "EnableOneDrive",
-	"UninstallOneDrive"            # "InstallOneDrive"
+	"UninstallOneDrive",            # "InstallOneDrive",
+	"UninstallBloatware",           # "InstallBloatware",
+	"UninstallWindowsStore",      # "InstallWindowsStore",
+	"DisableConsumerApps",          # "EnableConsumerApps",
+	"DisableXboxFeatures",          # "EnableXboxFeatures",
+	# "UninstallMediaPlayer",       # "InstallMediaPlayer",
+	# "UninstallWorkFolders",       # "InstallWorkFolders",
+	# "InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
+	#"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
+	#"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
+	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
+	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
+	"EnableF8BootMenu",             # "DisableF8BootMenu",
+
+	### Auxiliary Functions ###
+	"WaitForKey",
+	"Restart"
 )
 
 # Load preset from arguments or a file
