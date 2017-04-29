@@ -613,7 +613,7 @@ Function DisableLockScreenRS1 {
 # Enable Lock screen (Anniversary Update workaround) - Applicable to RS1 or newer
 Function EnableLockScreenRS1 {
 	Write-Host "Enabling Lock screen (removing scheduler workaround)..."
-	Unregister-ScheduledTask -TaskName "Disable LockScreen" -Confirm:$false -ErrorAction SilentlyContinue
+	Unregister-ScheduledTask -TaskName "Disable LockScreen" -Confirm:$true -ErrorAction SilentlyContinue
 }
 
 # Disable Sticky keys prompt
