@@ -84,11 +84,7 @@ $preset = @(
 	#"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
 	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
-
-	### Auxiliary Functions ###
-	#"WaitForKey",
-	"Restart"
+	"EnableF8BootMenu"              # "DisableF8BootMenu",
 )
 
 # Load preset from arguments or a file
