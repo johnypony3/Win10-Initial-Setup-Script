@@ -72,7 +72,7 @@ $preset = @(
 
 	### Application Tweaks ###
 	"DisableOneDrive",              # "EnableOneDrive",
-	"UninstallOneDrive",            # "InstallOneDrive"
+	"UninstallOneDrive"#,            # "InstallOneDrive"
 )
 
 # Load preset from arguments or a file
